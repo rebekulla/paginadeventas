@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en Línea</title>
+    <link rel="stylesheet" href="producto1.css">
+</head>
+<body>
+
+<div class="product">
+    <img src="https://i.pinimg.com/736x/d8/1c/96/d81c960a6bace872b38407de74cfca5b.jpg" alt="Imagen del Producto"  
+  >
+    <div>
+        <h2>Blusa Casual</h2>
+        <p id="description">Blusa cómoda, fresca y moderna, ideal para el día a día. Su diseño relajado permite libertad de movimiento, sin perder el estilo. Perfecta para combinar con jeans, faldas o pantalones de vestir. Disponible en distintos estampados y colores.
+        </p>
+        <form action="ropa.html" method="POST">
+            <label for="size">Tamaño:</label>
+            <select name="size" id="size">
+                <option value="S">XS</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+            </select>
+
+            <br>
+            <label for="color">Color:</label>
+            <select name="color" id="color">
+                <option value="rojo">Rojo</option>
+                <option value="verde">Verde</option>
+                <option value="azul">Azul</option>
+            </select>
+            <br>
+            <a href="ropa.html" target="_blank">
+                <button class="buy-now">Comprar Ahora</button>
+            </a>
+        </form>
+    </div>
+</div>
+
+    
+    
+
+
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.product {
+    display: flex;
+    background: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+.product h2 {
+    margin: 0;
+}
+
+.product select,
+.product button {
+    margin-top: 10px;
+}
+
+#cart {
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+    </style>
+</div>
+
+
+</body>
+</html>
